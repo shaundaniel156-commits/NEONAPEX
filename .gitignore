@@ -7,3 +7,5 @@ The_Last_Promise/references/*.mp4
 The_Last_Promise/blender/*.blend
 The_Last_Promise/blender/*.blend1
 The_Last_Promise/renders/
+__pycache__/
+*.pyc
