@@ -73,11 +73,11 @@ inspect or hand-edit the animation, cameras and lights.
 
 ## Render cost (this machine: 4 CPU cores, no GPU, software OpenGL)
 
-| Profile | Eevee samples | seconds / frame | full film (7,200 frames) |
+| Profile | Eevee samples | seconds / frame (full scene, 3 characters) | full film (7,200 frames) |
 |---------|---------------|-----------------|--------------------------|
-| 640 x 360 preview | 6 | ~1.0–1.6 | ~2–3 h |
-| 1280 x 720 | 12 | ~3.4 | ~7 h |
-| 1920 x 1080 final | 24 | ~11 | ~22 h |
+| 640 x 360 preview (no GTAO/SSR, hard shadows) | 4 | ~1.9 | ~4 h |
+| 1280 x 720 (GTAO, hard shadows) | 8 | ~5.2 | ~10 h |
+| 1920 x 1080 final (GTAO, SSR, soft shadows) | 16 | ~15 | ~30 h |
 
 With a GPU (any recent NVIDIA/AMD card) Eevee renders the 1080p profile at well under a
 second per frame, so the final render takes minutes rather than a day. Use

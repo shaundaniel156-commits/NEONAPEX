@@ -116,11 +116,11 @@ cam.shot(14.6, 17.2, (0.35, 0.1, 1.42), (0.0, -0.85, 1.42), fov=27)             
 cam.shot(17.2, 21.0, (-1.0, -0.2, 1.35), (0.0, -0.75, 1.3), fov=34, end_pos=(-0.9, -0.1, 1.35))                                     # restart attempt
 cam.shot(21.0, 29.2, (0.7, -0.05, 1.42), (0.0, -0.85, 1.42), fov=30, end_pos=(0.6, 0.0, 1.42))                                      # the phone call
 cam.shot(29.2, 34.0, (-1.6, -1.6, 1.7), (0.9, -0.2, 1.0), fov=44, end_look=(1.3, 0.2, 1.0))                                        # to the bed
-cam.shot(34.0, 38.6, (0.3, 0.45, 1.15), (1.45, 0.2, 1.08), fov=32, end_pos=(0.35, 0.4, 1.12))                                       # slumped on the bed
+cam.shot(34.0, 38.6, (0.3, 0.45, 1.28), (1.45, 0.2, 1.2), fov=32, end_pos=(0.35, 0.4, 1.26))                                       # slumped on the bed
 cam.shot(38.6, 42.5, (0.6, 1.4, 1.7), (-0.6, -0.9, 1.2), fov=44, end_look=(0.2, -0.3, 1.2))                                        # Grace enters
 cam.shot(42.5, 44.5, (1.15, 0.7, 1.5), (0.5, -0.05, 1.42), fov=30)                                                                 # CU Grace: what's wrong
-cam.shot(44.5, 48.4, (0.3, 0.55, 1.12), (1.45, 0.2, 1.08), fov=28)                                                                 # CU Daniel: ruined everything
-cam.shot(48.4, 59.0, (-0.4, -1.6, 1.5), (0.95, 0.05, 1.15), fov=38, end_pos=(-0.2, -1.4, 1.45))                                     # two-shot, her words
+cam.shot(44.5, 48.4, (0.3, 0.55, 1.28), (1.45, 0.2, 1.2), fov=28)                                                                 # CU Daniel: ruined everything
+cam.shot(48.4, 59.0, (0.1, 1.55, 1.55), (0.95, 0.05, 1.15), fov=40, end_pos=(0.25, 1.45, 1.5))                                     # two-shot, her words
 cam.shot(59.0, 61.6, (1.15, 0.72, 1.5), (0.5, -0.05, 1.42), fov=28)                                                                # CU Grace: one bad night
-cam.shot(61.6, 63.0, (0.35, 0.5, 1.12), (1.45, 0.2, 1.08), fov=30)                                                                 # Daniel wipes his tears
+cam.shot(61.6, 63.0, (0.35, 0.5, 1.28), (1.45, 0.2, 1.2), fov=30)                                                                 # Daniel wipes his tears
 ctx.finish()

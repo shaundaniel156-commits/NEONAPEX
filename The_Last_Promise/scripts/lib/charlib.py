@@ -15,6 +15,10 @@ from mathutils import Vector, Euler, Quaternion, Matrix
 import blib as B
 
 
+def low_cost_hair(spec):
+    return False
+
+
 def _noise(seed):
     r = random.Random(seed)
     return r
@@ -552,7 +556,7 @@ def build_character(spec, col=None, location=(0, 0, 0)):
     style = spec['hair']['style']
     if style != 'bald':
         natural = style == 'natural'
-        hair = B.uv_sphere(f'{name}_hair', 1.0, hc + Vector((0, 0, (0.04 if natural else 0.02) * Rh)), 96, 72, col)
+        hair = B.uv_sphere(f'{name}_hair', 1.0, hc + Vector((0, 0, (0.04 if natural else 0.02) * Rh)), 64, 48, col)
         bm = bmesh.new()
         bm.from_mesh(hair.data)
         grow = 1.13 if natural else 1.045
@@ -581,6 +585,8 @@ def build_character(spec, col=None, location=(0, 0, 0)):
         d.strength = 0.03 if natural else 0.008
         d.mid_level = 0.5
         B.subsurf(hair, 1)
+        if not low_cost_hair(spec):
+            B.apply_modifiers(hair)   # bake: the hair never deforms, so evaluate it once
         rigid.append(hair)
         if natural and spec['hair'].get('band'):
             band = B.torus(f'{name}_band', 1.1 * rx, 0.045 * Rh, hc + Vector((0, 0.02 * ry, 0.42 * rz)), col, (-0.28, 0, 0), 40, 10)

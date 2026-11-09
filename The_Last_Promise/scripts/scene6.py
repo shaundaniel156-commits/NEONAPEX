@@ -15,6 +15,8 @@ A.music('triumph', 0.3, 27.5, 0.24)
 A.music('tender', 27.5, DUR, 0.26)
 A.sfx('notification', 1.0, 0.5); A.sfx('chair', 3.3, 0.3) if False else None
 HOME.screen_color(1.0, (0.2, 0.9, 0.4, 1), 2.0)
+HOME.screen_text('mail_text', 'KAMPALA YOUTH TECH CHALLENGE', -1.0, 0.038 - 0.004, 0.89 + 0.06, yaw=0, size=0.014, color=(1, 1, 1, 1), visible_from=1.0)
+HOME.screen_text('mail_text2', 'Congratulations Daniel!\nYou are a FINALIST.', -1.0, 0.038 - 0.004, 0.89 - 0.01, yaw=0, size=0.016, color=(1, 1, 1, 1), visible_from=1.0)
 
 chair, kitchen = S['daniel_chair'], S['kitchen']
 stand = (-0.35, 0.95, 90)       # Daniel stands beside the table facing +X (toward Grace)
@@ -53,7 +55,7 @@ A.pose(D, F(7.4), A.stand_pose())
 A.look_at(D, 7.0, (grace_spot[0], grace_spot[1], 1.45))
 A.expression(D, 'smile', 7.4, 0.8)
 # Daniel: "One day, Mum, I'll give you the life you deserve."
-A.pose(D, F(10.8), {'upper_arm.R': (-25, 0, 10), 'forearm.R': (-110, 40, -15), 'hand.R': (-10, 40, 0)}, base=A.stand_pose())   # hand on his chest
+A.pose(D, F(10.8), {'upper_arm.R': (-20, 0, 8), 'forearm.R': (-95, 45, -15), 'hand.R': (-10, 40, 0)}, base=A.stand_pose())   # hand on his chest
 A.expression(D, 'determined', 10.6, 0.6)
 t = ctx.say(D, 's6_02_daniel', 10.9, hands='none', expression_name='smile', seed=1)
 A.pose(G, F(11.2), A.stand_pose())
@@ -97,7 +99,8 @@ A.fade(ctx.scene, 27.8, 29.0, to_black=False)
 A.fade(ctx.scene, 31.6, 33.0)
 
 cam = ctx.cam
-cam.shot(0.0, 3.4, (-0.62, 0.62, 1.08), (-1.0, 0.1, 0.9), fov=26, end_pos=(-0.45, -0.45, 1.3), end_look=(-1.0, 0.5, 1.4))         # email on the screen, then Daniel's face
+cam.shot(0.0, 2.2, (-0.6, 0.42, 1.18), (-1.0, 0.04, 0.9), fov=26, end_pos=(-0.62, 0.4, 1.16))                                     # the email on the screen
+cam.shot(2.2, 3.4, (-0.45, -0.75, 1.38), (-1.0, 0.5, 1.4), fov=28)                                                                # Daniel's face lights up
 cam.shot(3.4, 7.2, (1.8, -1.4, 1.55), (-0.3, 0.9, 1.3), fov=42, end_pos=(1.5, -1.1, 1.5))                                           # Mum! We made it!
 cam.shot(7.2, 10.8, (-0.5, 0.0, 1.45), (0.55, 1.05, 1.42), fov=30, end_pos=(-0.45, 0.05, 1.45))                                      # CU Grace (she faces -X)
 cam.shot(10.8, 15.4, (0.95, 0.15, 1.45), (-0.35, 0.95, 1.45), fov=30, end_pos=(0.9, 0.2, 1.45))                                      # CU Daniel: the life you deserve

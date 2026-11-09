@@ -70,6 +70,32 @@ def clock_hand(t0, t1, turns=1.0):
     h.keyframe_insert('rotation_euler', frame=F(t1))
 
 
+def screen_text(name, text, x, y, z, yaw=0, size=0.018, color=(1, 1, 1, 1), visible_from=None, visible_until=None, tilt=-18, lines=None):
+    """Text on a laptop screen (a FONT object just in front of the screen plane). Screen faces -Y before yaw."""
+    from anim import F
+    col = B.collection('Home')
+    cu = bpy.data.curves.new(name, 'FONT')
+    cu.body = text
+    cu.size = size
+    cu.align_x = 'CENTER'
+    o = bpy.data.objects.new(name, cu)
+    col.objects.link(o)
+    o.location = (x, y, z)
+    o.rotation_euler = (math.radians(90 + tilt), 0, math.radians(yaw))
+    o.data.materials.append(B.material(name + '_m', color, roughness=0.6, emission=color, emission_strength=2.0))
+    if visible_from is not None:
+        o.hide_render = True
+        o.keyframe_insert('hide_render', frame=1)
+        o.hide_render = False
+        o.keyframe_insert('hide_render', frame=F(visible_from))
+    if visible_until is not None:
+        o.hide_render = False
+        o.keyframe_insert('hide_render', frame=F(visible_until) - 1)
+        o.hide_render = True
+        o.keyframe_insert('hide_render', frame=F(visible_until))
+    return o
+
+
 def open_door(t0, t1, angle=-95):
     import math as _m
     from anim import F

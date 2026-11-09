@@ -26,6 +26,11 @@ for r in range(4):
     for c in range(11):
         bpy.data.objects[f'key{r}{c}'].hide_render = True
 HOME.clock_hand(12.0, 50.0, 2.0)
+# Brian's laptop at Daniel's seat: screen faces +Y (yaw 180), lid at y = 0.15 - 0.12
+sx, sy, sz = -1.0, 0.15 - 0.112 + 0.004, 0.765 + 0.125
+HOME.screen_text('code_text', 'def submit(project):\n    upload(project)\n    verify(project)\n    return "ok"', sx, sy + 0.012, sz + 0.03, yaw=180, size=0.013, color=(0.6, 0.9, 1.0, 1), visible_from=9.0, visible_until=50.2, tilt=18)
+HOME.screen_text('ok_text', 'SUBMISSION SUCCESSFUL', sx, sy + 0.012, sz + 0.015, yaw=180, size=0.02, color=(1, 1, 1, 1), visible_from=50.2, tilt=18)
+HOME.screen_text('ok_text2', 'Project received  08:57', sx, sy + 0.012, sz - 0.02, yaw=180, size=0.012, color=(0.9, 1, 0.9, 1), visible_from=50.2, tilt=18)
 
 chair, side = S['daniel_chair'], S['side_chair']
 # ---- Daniel at the table, tired, with his notebook ----
@@ -89,8 +94,8 @@ A.expression(D, 'bigSmile', 51.6, 1.0)
 A.expression(Bn, 'laugh', 52.0, 1.0)
 # BRIAN: "WE DID IT!" - both stand and celebrate
 t = ctx.say(Bn, 's5_01_brian', 52.4, hands='none', expression_name='laugh', seed=3)
-A.place(Bn, F(53.4), -2.3, -0.9, 60)
-A.place(D, F(53.4), -1.1, 1.05, 180 + 40)
+A.place(Bn, F(53.4), -2.1, 0.55, 90)
+A.place(D, F(53.4), -1.05, 1.1, -110)
 A.hips_offset(D, F(53.4), 0); A.hips_offset(Bn, F(53.4), 0)
 t = 53.4
 while t < DUR:
@@ -100,7 +105,7 @@ while t < DUR:
     A.hips_offset(Bn, F(t), dz=abs(math.sin(t * 5 + 1)) * 0.06)
     t += 0.2
 A.expression(D, 'laugh', 54.0, 1.0)
-A.look_at(D, 53.4, (-2.3, -0.9, 1.6)); A.look_at(Bn, 53.4, (-1.1, 1.05, 1.6))
+A.look_at(D, 53.4, (-2.1, 0.55, 1.6)); A.look_at(Bn, 53.4, (-1.05, 1.1, 1.6))
 # Grace watches proudly from the doorway
 A.place(G, 1, S['doorway'][0], S['doorway'][1], 180)
 A.pose(G, F(1), A.stand_pose())
@@ -112,20 +117,20 @@ A.expression(G, 'cry', 56.0, 0.35)
 A.fade(ctx.scene, 57.6, 59.0)
 
 cam = ctx.cam
-cam.shot(0.0, 2.6, (-0.6, -0.9, 1.3), (chair[0], chair[1] - 0.05, 1.4), fov=30, end_pos=(-0.55, -0.85, 1.3))                        # Daniel exhausted at dawn
+cam.shot(0.0, 2.6, (-0.5, -0.7, 1.05), (chair[0], chair[1] - 0.05, 1.15), fov=30, end_pos=(-0.45, -0.65, 1.05))                        # Daniel exhausted at dawn
 cam.shot(2.6, 6.8, (-2.4, -2.3, 1.55), (1.0, -1.5, 1.2), fov=44, end_look=(-0.6, -0.6, 1.2))                                       # Brian in through the door with his laptop
 cam.shot(6.8, 10.5, (-0.6, -0.5, 1.45), (-1.9, -0.2, 1.45), fov=32, end_pos=(-0.7, -0.55, 1.45))                                    # CU Brian: move over, genius
-cam.shot(10.5, 15.0, (-2.5, -1.3, 1.55), (-1.3, 0.2, 1.15), fov=40, end_pos=(-2.3, -1.2, 1.5))                                      # two-shot working
-cam.shot(15.0, 19.0, (-0.45, 0.75, 1.05), (-1.0, 0.25, 0.8), fov=32, end_pos=(-0.5, 0.7, 1.05))                                     # insert: hands typing
+cam.shot(10.5, 15.0, (-2.7, -0.9, 1.6), (-1.3, 0.3, 1.15), fov=42, end_pos=(-2.5, -0.8, 1.55))                                      # two-shot working
+cam.shot(15.0, 19.0, (-0.45, 0.9, 1.18), (-1.0, 0.15, 0.8), fov=34, end_pos=(-0.5, 0.85, 1.16))                                     # insert: hands typing
 cam.shot(19.0, 23.0, (-0.6, -0.55, 1.35), (chair[0], chair[1] - 0.05, 1.42), fov=27, end_pos=(-0.55, -0.5, 1.35))                   # CU Daniel's face
-cam.shot(23.0, 26.5, (-0.62, 0.62, 1.08), (-1.0, 0.1, 0.9), fov=28)                                                                # the laptop screen (over Daniel's shoulder)
+cam.shot(23.0, 26.5, (-0.6, 0.42, 1.18), (-1.0, 0.04, 0.9), fov=28)                                                                # the laptop screen (over Daniel's shoulder)
 cam.shot(26.5, 30.0, (-2.4, -0.8, 2.05), (-3.4, -0.8, 2.1), fov=24, end_pos=(-2.2, -0.8, 2.05))                                    # the clock
 cam.shot(30.0, 34.5, (-1.3, -0.9, 1.45), (-1.95, -0.1, 1.42), fov=30)                                                               # CU Brian pointing
 cam.shot(34.5, 39.0, (2.4, -2.2, 1.75), (-0.8, 0.3, 1.0), fov=44, end_pos=(1.8, -1.7, 1.6))                                         # wide, dawn light in the window
-cam.shot(39.0, 44.0, (-0.45, 0.78, 1.0), (-1.0, 0.25, 0.8), fov=30, end_pos=(-0.5, 0.72, 1.0))                                      # hands again, faster
+cam.shot(39.0, 44.0, (-0.45, 0.9, 1.12), (-1.0, 0.15, 0.8), fov=30, end_pos=(-0.5, 0.85, 1.1))                                      # hands again, faster
 cam.shot(44.0, 49.0, (-0.5, -0.55, 1.35), (chair[0], chair[1] - 0.05, 1.42), fov=26, end_pos=(-0.45, -0.5, 1.35))                   # ECU Daniel, final push
-cam.shot(49.0, 52.4, (-0.62, 0.62, 1.08), (-1.0, 0.1, 0.9), fov=26)                                                                # submission success screen
+cam.shot(49.0, 52.4, (-0.6, 0.42, 1.18), (-1.0, 0.04, 0.9), fov=26)                                                                # submission success screen
 cam.shot(52.4, 54.0, (-0.6, -0.55, 1.45), (-1.9, -0.2, 1.45), fov=30)                                                               # Brian: WE DID IT
-cam.shot(54.0, 56.8, (-3.0, -2.4, 1.7), (-1.5, 0.0, 1.2), fov=48, end_pos=(-2.7, -2.1, 1.65))                                       # celebration
+cam.shot(54.0, 56.8, (-2.9, -1.9, 1.65), (-1.6, 0.7, 1.2), fov=48, end_pos=(-2.6, -1.6, 1.6))                                       # celebration
 cam.shot(56.8, 59.0, (1.95, -1.1, 1.45), (2.0, -2.2, 1.42), fov=30, end_pos=(1.95, -1.3, 1.45))                                     # Grace proud at the doorway
 ctx.finish()

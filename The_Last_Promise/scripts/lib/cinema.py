@@ -58,24 +58,25 @@ def render_settings(scene, w, h, duration, filepath, samples=None, quality='prev
     scene.render.image_settings.color_mode = 'RGB'
     scene.render.image_settings.compression = 50
     ev = scene.eevee
-    if w >= 1600:
-        ev.taa_render_samples = samples or 24
-        ev.shadow_cube_size = '2048'; ev.shadow_cascade_size = '4096'
-        ev.use_soft_shadows = True
-    elif w >= 1000:
-        ev.taa_render_samples = samples or 12
+    if w >= 1600:      # final
+        ev.taa_render_samples = samples or 16
         ev.shadow_cube_size = '1024'; ev.shadow_cascade_size = '2048'
         ev.use_soft_shadows = True
-    else:
-        ev.taa_render_samples = samples or 6
+        ev.use_gtao = True; ev.use_ssr = True
+    elif w >= 1000:    # 720p
+        ev.taa_render_samples = samples or 8
         ev.shadow_cube_size = '512'; ev.shadow_cascade_size = '1024'
         ev.use_soft_shadows = False
-    ev.use_gtao = True
+        ev.use_gtao = True; ev.use_ssr = False
+    else:              # preview
+        ev.taa_render_samples = samples or 4
+        ev.shadow_cube_size = '512'; ev.shadow_cascade_size = '512'
+        ev.use_soft_shadows = False
+        ev.use_gtao = False; ev.use_ssr = False
     ev.gtao_distance = 0.4
     ev.use_bloom = True
     ev.bloom_intensity = 0.04
     ev.bloom_threshold = 1.2
-    ev.use_ssr = True
     ev.use_motion_blur = False
     scene.view_settings.view_transform = 'Filmic'
     scene.view_settings.look = 'Medium Contrast'
