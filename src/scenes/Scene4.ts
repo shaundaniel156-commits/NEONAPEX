@@ -130,7 +130,7 @@ export function buildScene4() {
   b.shot(20.6, 24.6, { name: 'insert laptop screen', pos: v3(0.55, 1.05, -0.65), posEnd: v3(0.45, 1.0, -0.75), look: v3(0, 0.92, -1.42), fov: 30, handheld: 0.3 });
   b.shot(24.6, 28.6, { name: 'ecu daniel no no no', pos: offset(D, 0.5, 0.0, -0.78), posEnd: offset(D, 0.42, 0.0, -0.68), look: offset(D, 0, -0.03, 0), fov: 27, handheld: 0.4 });
   b.shot(28.6, 32.8, { name: 'brian lights the lamp', pos: v3(-0.9, 0.95, 1.5), look: v3(0.8, 0.35, 0.9), fov: 36, handheld: 0.3 });
-  b.shot(32.8, 39.6, { name: 'cu daniel lamp light', pos: offset(D, -0.3, 0.06, -0.74), look: offset(D, 0, -0.03, 0), fov: 28, handheld: 0.3 });
+  b.shot(32.8, 39.6, { name: 'cu daniel lamp light', pos: offset(D, -0.25, 0.08, -0.95), look: offset(D, 0, -0.03, 0), fov: 33, handheld: 0.3 });
   b.shot(39.6, 44.6, { name: 'cu brian rebuild', pos: offset(B, -0.55, 0.0, -0.8), look: offset(B, 0, -0.03, 0), fov: 28, handheld: 0.3 });
   b.shot(44.6, 50.6, { name: 'two shot from window', pos: v3(-1.3, 1.3, -1.3), posEnd: v3(-1.2, 1.3, -1.1), look: between(D, B, 0.5, -0.1), fov: 38, handheld: 0.3 });
   b.shot(50.6, 56.6, { name: 'cu daniel go home', pos: offset(D, 0.55, 0.0, -0.72), look: offset(D, 0, -0.05, 0), fov: 27, handheld: 0.35 });
