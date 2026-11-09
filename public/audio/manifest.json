@@ -1,0 +1,6 @@
+{
+  "_comment": "Optional imported audio. Put files under public/audio/{dialogue,music,effects} and list them here. Dialogue keys are line ids (s1_00 = scene 1, line 0 ...). Music keys: warm, hopeful, tender, tense, sad, resolve, triumph. Ambient keys: home, street, market, rain, night. Anything not listed is generated procedurally.",
+  "dialogue": {},
+  "music": {},
+  "ambient": {}
+}
