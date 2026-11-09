@@ -1,0 +1,80 @@
+{
+ "dialogue": [
+  {
+   "id": "s6_00_daniel",
+   "speaker": "Daniel",
+   "text": "Mum! We made it!",
+   "file": "audio/dialogue/generated/s6_00_daniel.wav",
+   "t": 3.9,
+   "duration": 2.266
+  },
+  {
+   "id": "s6_01_grace",
+   "speaker": "Grace",
+   "text": "I told you not to give up.",
+   "file": "audio/dialogue/generated/s6_01_grace.wav",
+   "t": 7.3,
+   "duration": 2.826
+  },
+  {
+   "id": "s6_02_daniel",
+   "speaker": "Daniel",
+   "text": "One day, Mum, I'll give you the life you deserve.",
+   "file": "audio/dialogue/generated/s6_02_daniel.wav",
+   "t": 10.9,
+   "duration": 4.031
+  },
+  {
+   "id": "s6_03_grace",
+   "speaker": "Grace",
+   "text": "Daniel, you've already given me something better. You've given me a reason to believe.",
+   "file": "audio/dialogue/generated/s6_03_grace.wav",
+   "t": 15.6,
+   "duration": 7.135
+  },
+  {
+   "id": "s6_04_narrator",
+   "speaker": "Narrator",
+   "text": "Sometimes, success isn't about how far you go. It's about remembering the people who helped you take your first step.",
+   "file": "audio/dialogue/generated/s6_04_narrator.wav",
+   "t": 22.6,
+   "duration": 10.325
+  }
+ ],
+ "sfx": [
+  {
+   "name": "notification",
+   "t": 1.0,
+   "gain": 0.5
+  },
+  {
+   "name": "footstep",
+   "t": 6.2,
+   "gain": 0.22
+  }
+ ],
+ "ambience": [
+  {
+   "name": "room_tone",
+   "t0": 0,
+   "t1": 27,
+   "gain": 0.35
+  }
+ ],
+ "music": [
+  {
+   "mood": "triumph",
+   "t0": 0.3,
+   "t1": 27.5,
+   "gain": 0.24
+  },
+  {
+   "mood": "tender",
+   "t0": 27.5,
+   "t1": 33.0,
+   "gain": 0.26
+  }
+ ],
+ "duration": 33.0,
+ "scene": "scene6"
+}

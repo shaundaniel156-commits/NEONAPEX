@@ -1,0 +1,302 @@
+[
+ {
+  "id": "s1_00_grace",
+  "scene": 1,
+  "index": 0,
+  "speaker": "Grace",
+  "text": "Daniel, you're going to be late again.",
+  "file": "audio/dialogue/generated/s1_00_grace.wav",
+  "duration": 3.383,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s1_01_daniel",
+  "scene": 1,
+  "index": 1,
+  "speaker": "Daniel",
+  "text": "Mum, just five more minutes. I'm almost done.",
+  "file": "audio/dialogue/generated/s1_01_daniel.wav",
+  "duration": 4.312,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s1_02_grace",
+  "scene": 1,
+  "index": 2,
+  "speaker": "Grace",
+  "text": "You've been saying five minutes since yesterday!",
+  "file": "audio/dialogue/generated/s1_02_grace.wav",
+  "duration": 4.232,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s1_03_grace",
+  "scene": 1,
+  "index": 3,
+  "speaker": "Grace",
+  "text": "I don't need a big house or expensive things, my son. I just want to see you become someone you are proud of.",
+  "file": "audio/dialogue/generated/s1_03_grace.wav",
+  "duration": 10.151,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s1_04_daniel",
+  "scene": 1,
+  "index": 4,
+  "speaker": "Daniel",
+  "text": "I promise.",
+  "file": "audio/dialogue/generated/s1_04_daniel.wav",
+  "duration": 1.194,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s2_00_brian",
+  "scene": 2,
+  "index": 0,
+  "speaker": "Brian",
+  "text": "Bro! Have you seen this? The competition is happening this weekend!",
+  "file": "audio/dialogue/generated/s2_00_brian.wav",
+  "duration": 5.27,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s2_01_daniel",
+  "scene": 2,
+  "index": 1,
+  "speaker": "Daniel",
+  "text": "A scholarship? You're joking!",
+  "file": "audio/dialogue/generated/s2_01_daniel.wav",
+  "duration": 2.708,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s2_02_brian",
+  "scene": 2,
+  "index": 2,
+  "speaker": "Brian",
+  "text": "I'm serious. But there's one problem. Registration closes tomorrow.",
+  "file": "audio/dialogue/generated/s2_02_brian.wav",
+  "duration": 5.41,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s2_03_daniel",
+  "scene": 2,
+  "index": 3,
+  "speaker": "Daniel",
+  "text": "I don't even have enough money for transport and registration.",
+  "file": "audio/dialogue/generated/s2_03_daniel.wav",
+  "duration": 4.79,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s2_04_brian",
+  "scene": 2,
+  "index": 4,
+  "speaker": "Brian",
+  "text": "We'll figure something out. You're too talented to miss this.",
+  "file": "audio/dialogue/generated/s2_04_brian.wav",
+  "duration": 4.451,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s3_00_grace",
+  "scene": 3,
+  "index": 0,
+  "speaker": "Grace",
+  "text": "How much do you need?",
+  "file": "audio/dialogue/generated/s3_00_grace.wav",
+  "duration": 2.346,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s3_01_daniel",
+  "scene": 3,
+  "index": 1,
+  "speaker": "Daniel",
+  "text": "Mum, forget it. I'll find another way.",
+  "file": "audio/dialogue/generated/s3_01_daniel.wav",
+  "duration": 3.825,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s3_02_grace",
+  "scene": 3,
+  "index": 2,
+  "speaker": "Grace",
+  "text": "Take this.",
+  "file": "audio/dialogue/generated/s3_02_grace.wav",
+  "duration": 1.357,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s3_03_daniel",
+  "scene": 3,
+  "index": 3,
+  "speaker": "Daniel",
+  "text": "Mum, no. You need that money.",
+  "file": "audio/dialogue/generated/s3_03_daniel.wav",
+  "duration": 3.198,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s3_04_grace",
+  "scene": 3,
+  "index": 4,
+  "speaker": "Grace",
+  "text": "Daniel, opportunities don't come every day. Go and do your best.",
+  "file": "audio/dialogue/generated/s3_04_grace.wav",
+  "duration": 6.033,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s3_05_daniel",
+  "scene": 3,
+  "index": 5,
+  "speaker": "Daniel",
+  "text": "I won't disappoint you.",
+  "file": "audio/dialogue/generated/s3_05_daniel.wav",
+  "duration": 1.937,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s4_00_daniel",
+  "scene": 4,
+  "index": 0,
+  "speaker": "Daniel",
+  "text": "No! No, no, no!",
+  "file": "audio/dialogue/generated/s4_00_daniel.wav",
+  "duration": 2.993,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s4_01_brian",
+  "scene": 4,
+  "index": 1,
+  "speaker": "Brian",
+  "text": "Wait. Didn't you save a backup?",
+  "file": "audio/dialogue/generated/s4_01_brian.wav",
+  "duration": 2.872,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s4_02_daniel",
+  "scene": 4,
+  "index": 2,
+  "speaker": "Daniel",
+  "text": "I forgot...",
+  "file": "audio/dialogue/generated/s4_02_daniel.wav",
+  "duration": 1.103,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s4_03_grace",
+  "scene": 4,
+  "index": 3,
+  "speaker": "Grace",
+  "text": "What's wrong?",
+  "file": "audio/dialogue/generated/s4_03_grace.wav",
+  "duration": 1.437,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s4_04_daniel",
+  "scene": 4,
+  "index": 4,
+  "speaker": "Daniel",
+  "text": "I think I've ruined everything, Mum.",
+  "file": "audio/dialogue/generated/s4_04_daniel.wav",
+  "duration": 3.16,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s4_05_grace",
+  "scene": 4,
+  "index": 5,
+  "speaker": "Grace",
+  "text": "Losing something doesn't mean you've lost everything. You still have your mind, your hands and another chance to try.",
+  "file": "audio/dialogue/generated/s4_05_grace.wav",
+  "duration": 9.991,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s4_06_grace",
+  "scene": 4,
+  "index": 6,
+  "speaker": "Grace",
+  "text": "Don't let one bad night decide your future.",
+  "file": "audio/dialogue/generated/s4_06_grace.wav",
+  "duration": 3.91,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s5_00_brian",
+  "scene": 5,
+  "index": 0,
+  "speaker": "Brian",
+  "text": "Move over, genius. We're not losing this competition today.",
+  "file": "audio/dialogue/generated/s5_00_brian.wav",
+  "duration": 4.789,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s5_01_brian",
+  "scene": 5,
+  "index": 1,
+  "speaker": "Brian",
+  "text": "WE DID IT!",
+  "file": "audio/dialogue/generated/s5_01_brian.wav",
+  "duration": 1.294,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s6_00_daniel",
+  "scene": 6,
+  "index": 0,
+  "speaker": "Daniel",
+  "text": "Mum! We made it!",
+  "file": "audio/dialogue/generated/s6_00_daniel.wav",
+  "duration": 2.266,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s6_01_grace",
+  "scene": 6,
+  "index": 1,
+  "speaker": "Grace",
+  "text": "I told you not to give up.",
+  "file": "audio/dialogue/generated/s6_01_grace.wav",
+  "duration": 2.826,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s6_02_daniel",
+  "scene": 6,
+  "index": 2,
+  "speaker": "Daniel",
+  "text": "One day, Mum, I'll give you the life you deserve.",
+  "file": "audio/dialogue/generated/s6_02_daniel.wav",
+  "duration": 4.031,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s6_03_grace",
+  "scene": 6,
+  "index": 3,
+  "speaker": "Grace",
+  "text": "Daniel, you've already given me something better. You've given me a reason to believe.",
+  "file": "audio/dialogue/generated/s6_03_grace.wav",
+  "duration": 7.135,
+  "source": "espeak-ng placeholder"
+ },
+ {
+  "id": "s6_04_narrator",
+  "scene": 6,
+  "index": 4,
+  "speaker": "Narrator",
+  "text": "Sometimes, success isn't about how far you go. It's about remembering the people who helped you take your first step.",
+  "file": "audio/dialogue/generated/s6_04_narrator.wav",
+  "duration": 10.325,
+  "source": "espeak-ng placeholder"
+ }
+]

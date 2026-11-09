@@ -1,0 +1,121 @@
+{
+ "dialogue": [
+  {
+   "id": "s5_00_brian",
+   "speaker": "Brian",
+   "text": "Move over, genius. We're not losing this competition today.",
+   "file": "audio/dialogue/generated/s5_00_brian.wav",
+   "t": 6.8,
+   "duration": 4.789
+  },
+  {
+   "id": "s5_01_brian",
+   "speaker": "Brian",
+   "text": "WE DID IT!",
+   "file": "audio/dialogue/generated/s5_01_brian.wav",
+   "t": 52.4,
+   "duration": 1.294
+  }
+ ],
+ "sfx": [
+  {
+   "name": "door",
+   "t": 2.4,
+   "gain": 0.5
+  },
+  {
+   "name": "typing_bed",
+   "t": 12.0,
+   "gain": 0.3
+  },
+  {
+   "name": "typing_bed",
+   "t": 32.0,
+   "gain": 0.3
+  },
+  {
+   "name": "notification",
+   "t": 49.6,
+   "gain": 0.5
+  },
+  {
+   "name": "success",
+   "t": 50.3,
+   "gain": 0.6
+  },
+  {
+   "name": "cheer",
+   "t": 52.6,
+   "gain": 0.4
+  },
+  {
+   "name": "footstep",
+   "t": 3.211,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 3.821,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 4.432,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 5.042,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 5.653,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 6.263,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 6.874,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 7.484,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 8.095,
+   "gain": 0.22
+  }
+ ],
+ "ambience": [
+  {
+   "name": "room_tone",
+   "t0": 0,
+   "t1": 59.0,
+   "gain": 0.4
+  }
+ ],
+ "music": [
+  {
+   "mood": "resolve",
+   "t0": 0.5,
+   "t1": 50,
+   "gain": 0.2
+  },
+  {
+   "mood": "triumph",
+   "t0": 50,
+   "t1": 59.0,
+   "gain": 0.26
+  }
+ ],
+ "duration": 59.0,
+ "scene": "scene5"
+}

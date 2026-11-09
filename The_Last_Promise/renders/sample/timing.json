@@ -1,0 +1,91 @@
+{
+ "dialogue": [
+  {
+   "id": "s1_00_grace",
+   "speaker": "Grace",
+   "text": "Daniel, you're going to be late again.",
+   "file": "audio/dialogue/generated/s1_00_grace.wav",
+   "t": 5.6,
+   "duration": 3.383
+  },
+  {
+   "id": "s1_01_daniel",
+   "speaker": "Daniel",
+   "text": "Mum, just five more minutes. I'm almost done.",
+   "file": "audio/dialogue/generated/s1_01_daniel.wav",
+   "t": 9.8,
+   "duration": 4.312
+  },
+  {
+   "id": "s1_02_grace",
+   "speaker": "Grace",
+   "text": "You've been saying five minutes since yesterday!",
+   "file": "audio/dialogue/generated/s1_02_grace.wav",
+   "t": 15.0,
+   "duration": 4.232
+  },
+  {
+   "id": "s2_00_brian",
+   "speaker": "Brian",
+   "text": "Bro! Have you seen this? The competition is happening this weekend!",
+   "file": "audio/dialogue/generated/s2_00_brian.wav",
+   "t": 16.4,
+   "duration": 5.27
+  }
+ ],
+ "sfx": [
+  {
+   "name": "door",
+   "t": 12.6,
+   "gain": 0.5
+  },
+  {
+   "name": "typing_bed",
+   "t": 0.3,
+   "gain": 0.25
+  },
+  {
+   "name": "footstep",
+   "t": 11.857,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 12.714,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 13.571,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 13.9,
+   "gain": 0.35
+  },
+  {
+   "name": "footstep",
+   "t": 15.3,
+   "gain": 0.35
+  }
+ ],
+ "ambience": [
+  {
+   "name": "room_tone",
+   "t0": 0,
+   "t1": 20.0,
+   "gain": 0.4
+  }
+ ],
+ "music": [
+  {
+   "mood": "warm",
+   "t0": 0,
+   "t1": 20.0,
+   "gain": 0.22
+  }
+ ],
+ "duration": 20.0,
+ "scene": "sample"
+}

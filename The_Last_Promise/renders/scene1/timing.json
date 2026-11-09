@@ -1,0 +1,104 @@
+{
+ "dialogue": [
+  {
+   "id": "s1_00_grace",
+   "speaker": "Grace",
+   "text": "Daniel, you're going to be late again.",
+   "file": "audio/dialogue/generated/s1_00_grace.wav",
+   "t": 7.6,
+   "duration": 3.383
+  },
+  {
+   "id": "s1_01_daniel",
+   "speaker": "Daniel",
+   "text": "Mum, just five more minutes. I'm almost done.",
+   "file": "audio/dialogue/generated/s1_01_daniel.wav",
+   "t": 11.4,
+   "duration": 4.312
+  },
+  {
+   "id": "s1_02_grace",
+   "speaker": "Grace",
+   "text": "You've been saying five minutes since yesterday!",
+   "file": "audio/dialogue/generated/s1_02_grace.wav",
+   "t": 16.4,
+   "duration": 4.232
+  },
+  {
+   "id": "s1_03_grace",
+   "speaker": "Grace",
+   "text": "I don't need a big house or expensive things, my son. I just want to see you become someone you are proud of.",
+   "file": "audio/dialogue/generated/s1_03_grace.wav",
+   "t": 26.6,
+   "duration": 10.151
+  },
+  {
+   "id": "s1_04_daniel",
+   "speaker": "Daniel",
+   "text": "I promise.",
+   "file": "audio/dialogue/generated/s1_04_daniel.wav",
+   "t": 37.8,
+   "duration": 1.194
+  }
+ ],
+ "sfx": [
+  {
+   "name": "typing_bed",
+   "t": 0.5,
+   "gain": 0.2
+  },
+  {
+   "name": "footstep",
+   "t": 19.0,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 20.0,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 21.0,
+   "gain": 0.22
+  },
+  {
+   "name": "sigh",
+   "t": 24.4,
+   "gain": 0.3
+  },
+  {
+   "name": "footstep",
+   "t": 42.0,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 43.0,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 44.0,
+   "gain": 0.22
+  }
+ ],
+ "ambience": [
+  {
+   "name": "room_tone",
+   "t0": 0,
+   "t1": 45.0,
+   "gain": 0.4
+  }
+ ],
+ "music": [
+  {
+   "mood": "warm",
+   "t0": 0.5,
+   "t1": 45.0,
+   "gain": 0.2
+  }
+ ],
+ "duration": 45.0,
+ "scene": "scene1"
+}

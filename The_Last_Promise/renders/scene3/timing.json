@@ -1,0 +1,1268 @@
+{
+ "dialogue": [
+  {
+   "id": "s3_00_grace",
+   "speaker": "Grace",
+   "text": "How much do you need?",
+   "file": "audio/dialogue/generated/s3_00_grace.wav",
+   "t": 14.6,
+   "duration": 2.346
+  },
+  {
+   "id": "s3_01_daniel",
+   "speaker": "Daniel",
+   "text": "Mum, forget it. I'll find another way.",
+   "file": "audio/dialogue/generated/s3_01_daniel.wav",
+   "t": 17.6,
+   "duration": 3.825
+  },
+  {
+   "id": "s3_02_grace",
+   "speaker": "Grace",
+   "text": "Take this.",
+   "file": "audio/dialogue/generated/s3_02_grace.wav",
+   "t": 26.2,
+   "duration": 1.357
+  },
+  {
+   "id": "s3_03_daniel",
+   "speaker": "Daniel",
+   "text": "Mum, no. You need that money.",
+   "file": "audio/dialogue/generated/s3_03_daniel.wav",
+   "t": 28.2,
+   "duration": 3.198
+  },
+  {
+   "id": "s3_04_grace",
+   "speaker": "Grace",
+   "text": "Daniel, opportunities don't come every day. Go and do your best.",
+   "file": "audio/dialogue/generated/s3_04_grace.wav",
+   "t": 32.4,
+   "duration": 6.033
+  },
+  {
+   "id": "s3_05_daniel",
+   "speaker": "Daniel",
+   "text": "I won't disappoint you.",
+   "file": "audio/dialogue/generated/s3_05_daniel.wav",
+   "t": 39.6,
+   "duration": 1.937
+  }
+ ],
+ "sfx": [
+  {
+   "name": "footstep",
+   "t": 0.715,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 1.43,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 2.146,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 2.861,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 3.576,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 4.291,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 5.006,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 5.722,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 6.437,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 7.152,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 7.867,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 8.582,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 9.298,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 10.013,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 10.728,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 11.443,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 12.158,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 12.874,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 13.589,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 14.304,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 15.019,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 15.734,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 16.45,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 17.165,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 17.88,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 18.595,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 19.31,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 20.026,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 20.741,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 21.456,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 22.171,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 22.886,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 23.602,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 24.317,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 25.032,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 25.747,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 26.462,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 27.178,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 27.893,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 28.608,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 29.323,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 30.038,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 30.754,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 31.838,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 32.564,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 33.291,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 34.017,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 34.744,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 35.47,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 36.197,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 36.923,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 37.65,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 38.376,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 39.103,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 39.829,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 40.556,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 41.282,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 42.009,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 42.735,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 43.462,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 44.188,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 44.915,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 45.641,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 46.368,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 47.094,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 47.821,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 48.547,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 49.274,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 50.0,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 0.75,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 1.5,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 2.25,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 3.0,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 3.75,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 4.5,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 5.25,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 6.0,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 6.75,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 7.5,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 8.25,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 9.0,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 9.75,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 10.5,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 11.25,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 12.0,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 12.75,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 13.5,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 14.25,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 15.0,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 15.75,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 16.5,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 17.25,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 18.0,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 18.75,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 19.5,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 20.25,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 21.0,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 21.75,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 22.5,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 23.25,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 24.0,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 24.754,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 25.507,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 26.261,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 27.014,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 27.768,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 28.522,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 29.275,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 30.029,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 30.783,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 31.536,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 32.29,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 33.043,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 33.797,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 34.551,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 35.304,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 36.058,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 36.812,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 37.565,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 38.319,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 39.072,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 39.826,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 40.58,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 41.333,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 42.087,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 42.841,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 43.594,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 44.348,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 45.101,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 45.855,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 46.609,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 47.362,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 48.116,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 48.87,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 49.623,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 0.641,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 1.281,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 1.922,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 2.563,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 3.203,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 3.844,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 4.485,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 5.125,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 5.766,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 6.71,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 7.335,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 7.959,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 8.583,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 9.207,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 9.831,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 10.455,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 11.079,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 11.704,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 12.328,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 12.952,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 13.576,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 14.2,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 14.824,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 15.448,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 16.073,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 16.697,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 17.321,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 17.945,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 18.569,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 19.193,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 19.817,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 20.442,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 21.066,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 21.69,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 22.314,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 22.938,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 23.562,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 24.186,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 24.81,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 25.435,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 26.059,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 26.683,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 27.307,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 27.931,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 28.555,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 29.179,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 29.804,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 30.428,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 31.052,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 31.676,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 32.3,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 32.924,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 33.548,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 34.173,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 34.806,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 35.439,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 36.072,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 36.705,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 37.338,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 37.971,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 38.604,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 39.237,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 39.87,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 40.504,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 41.137,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 41.77,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 42.403,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 43.036,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 43.669,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 44.302,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 44.935,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 45.568,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 46.201,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 46.835,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 47.468,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 48.101,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 48.734,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 49.367,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 50.0,
+   "gain": 0.22
+  },
+  {
+   "name": "coin",
+   "t": 23.8,
+   "gain": 0.35
+  },
+  {
+   "name": "footstep",
+   "t": 2.431,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 2.862,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 3.292,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 3.723,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 4.154,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 4.585,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 5.015,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 5.446,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 5.877,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 6.308,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 6.738,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 7.169,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 7.6,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 8.031,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 8.462,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 8.892,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 9.323,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 9.754,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 10.185,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 42.943,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 43.686,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 44.429,
+   "gain": 0.22
+  },
+  {
+   "name": "footstep",
+   "t": 44.6,
+   "gain": 0.22
+  }
+ ],
+ "ambience": [
+  {
+   "name": "market_bed",
+   "t0": 0,
+   "t1": 50.0,
+   "gain": 0.45
+  }
+ ],
+ "music": [
+  {
+   "mood": "warm",
+   "t0": 0.5,
+   "t1": 24,
+   "gain": 0.16
+  },
+  {
+   "mood": "tender",
+   "t0": 24,
+   "t1": 50.0,
+   "gain": 0.22
+  }
+ ],
+ "duration": 50.0,
+ "scene": "scene3"
+}
