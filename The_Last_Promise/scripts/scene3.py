@@ -83,9 +83,9 @@ t = ctx.say(D, 's3_05_daniel', 39.6, hands='none', expression_name='smile', seed
 A.pose(D, F(41.8), A.wipe_tears_pose(0.5, 'R'), base=A.stand_pose())
 A.pose(D, F(42.6), A.stand_pose())
 # They hug: Grace comes round the stall
-A.walk(G, 42.2, 44.8, [stall[:2], (3.4, -0.3), (2.45, -0.35)], face_end=A.yaw_to((2.45, -0.35), (1.85, -0.9)))
+A.walk(G, 42.2, 44.8, [stall[:2], (3.8, -0.7), (2.5, -0.3)], face_end=A.yaw_to((2.5, -0.3), (1.95, -0.85)))
 A.walk(D, 43.2, 44.6, [cust[:2], (1.95, -0.85)], face_end=A.yaw_to((1.95, -0.85), (2.45, -0.35)))
-A.look_at(D, 43.0, (2.45, -0.35, 1.45))
+A.look_at(D, 43.0, (2.5, -0.3, 1.45))
 A.look_at(G, 43.0, (1.95, -0.85, 1.5))
 A.pose(G, F(45.4), A.hug_pose(-1), base=A.stand_pose())
 A.pose(D, F(45.6), A.hug_pose(1), base=A.stand_pose())

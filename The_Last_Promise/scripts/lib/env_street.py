@@ -116,9 +116,9 @@ def build(scene, preset='day'):
             add(B.assign(B.uv_sphere(f'leaf{x}{y}{k}', 1.1 + rnd.random() * 0.6, (x + rnd.uniform(-1, 1), y + rnd.uniform(-1, 1), 3.4 + rnd.random() * 1.2), 12, 8, col), leaf))
     # mobile-money kiosk
     kiosk = B.material('st_kiosk', (1, 0.8, 0.0, 1), roughness=0.6)
-    add(B.assign(B.box('kiosk', (1.4, 1.2, 2.2), (5.8, 7, 1.1), col), kiosk))
-    add(B.assign(B.box('kiosk_roof', (1.5, 1.3, 0.08), (5.8, 7, 2.25), col), dark))
-    add(B.assign(B.box('kiosk_win', (0.05, 0.8, 0.6), (5.09, 7, 1.2), col), glass))
+    add(B.assign(B.box('kiosk', (1.4, 1.2, 2.2), (6.3, 7, 1.1), col), kiosk))
+    add(B.assign(B.box('kiosk_roof', (1.5, 1.3, 0.08), (6.3, 7, 2.25), col), dark))
+    add(B.assign(B.box('kiosk_win', (0.05, 0.8, 0.6), (5.59, 7, 1.2), col), glass))
     # vehicles
     build_vehicles(col, add)
     build_people(col, add, rnd)
