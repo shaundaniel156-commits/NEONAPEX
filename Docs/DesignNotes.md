@@ -6,7 +6,7 @@ Sources:
 1. **Owner brief** — the original step-by-step development brief given to Claude.
 2. **ChatGPT planning chat** — the owner's earlier conversation with ChatGPT about a six-agent workflow (supplied as `NEON_APEX_DOC.docx`).
 
-Where the two disagree, the disagreement is listed in section 4 and stays open until the owner decides.
+Where the two disagree, the disagreement and its resolution are listed in section 4.
 
 ---
 
@@ -103,7 +103,7 @@ ChatGPT's suggested Milestone 1:
 
 ChatGPT's nine phases: discovery, architecture and planning, foundation, core gameplay, world expansion, platform optimisation, independent QA, final integration, delivery.
 
-## 4. Conflicts between the two sources (open, owner to decide)
+## 4. Conflicts between the two sources (resolved 2026-11-10, see GameDesign.md)
 
 | Topic | Owner brief | ChatGPT chat |
 |---|---|---|
@@ -116,8 +116,9 @@ ChatGPT's nine phases: discovery, architecture and planning, foundation, core ga
 | Excluded features | Weather, damage, customisation, economy, procedural generation excluded | Weather, day/night, damage, customisation and currency listed as eventual features |
 | Roadmap | 20 phases | 9 phases |
 
+Resolution: the owner approved a combined plan. Track-based in one city district with room to grow, realistic look at night with neon, arcade handling, cockpit camera first, Windows first, phase-by-phase approval with a developer and tester agent per phase, no backend or database for now. The approved design is in `GameDesign.md`.
+
 ## 5. Status
 
-- Phase 1 design proposal presented. Not approved.
-- Reference image reviewed (cockpit view, city street, traffic).
-- Repository contains only this file. No Unity project exists yet.
+- Phase 1 design approved by the owner on 2026-11-10.
+- No Unity project exists yet.
